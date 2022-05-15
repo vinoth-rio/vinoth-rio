@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: black;
+
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color: #29f700 !important;
+}
+#navbarSupportedContent{
+    color: #fff;
+    border-bottom: 20x solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700;
+}
+
+#navbarSupportedContent button{
+    background: #29f700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #fff;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/****home***/
+
+#home{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)) ,url(bg.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.signin{
+    background: #29f700 !important;
+    color: #fff !important;
+    box-shadow: 2px 4px 5px;
+
+}
+
+/***about****/
+
+#about h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
+#about p{
+    color: #fff;
+}
+
+/****explore***/
+
+#explore{
+    background: #e5e5e5;
+}
+#explore h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #29f700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#explore img{
+    width: 250px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),                
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+}
+.card-title{
+    color: #29f700;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3),inset -4px -4px 10px white;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+/****contect***/
+
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contect input{
+    margin: 10px 0px;
+}
+#contect textarea{
+    margin: 10px 0px;
+}
